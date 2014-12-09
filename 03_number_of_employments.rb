@@ -158,10 +158,10 @@ crm = {
 # ------- your code under here -----------
 
 crm[:people].each do |person|
-  p "#{person[:first_name]} - #{person[:employments].count}"
+  puts "#{person[:first_name]} - #{person[:employments].count}"
 end
 
-# p thing[:employments].count
+
 # p thing[:first_name]
 # p thing[:last_name]
 # p thing[:employments].count
